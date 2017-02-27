@@ -907,8 +907,8 @@ public class main extends javax.swing.JFrame {
     }//GEN-LAST:event_xMouseEntered
 
     private void xMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_xMouseExited
-        ImageIcon ico = new ImageIcon(getClass().getResource("/buttons/clse.png"));
-        x.setIcon(ico);
+
+        x.setIcon(null);
     }//GEN-LAST:event_xMouseExited
 
     private void xMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_xMouseClicked
